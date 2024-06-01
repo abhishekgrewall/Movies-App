@@ -73,12 +73,12 @@ function Movies() {
   };
 
   return (
-    <div>
-     
-      <h1 className='MoviesH2'>Movies</h1>
-
-
-
+    <div><h1 style={{
+      margin: "10px",
+        padding: "10px",
+        fontSize: "32px",
+        fontWeight: "800",
+        color: "black"}}>Movies</h1>
 
       <div className="search-container">
         <form onSubmit={handleSearch}>
